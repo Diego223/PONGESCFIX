@@ -1,7 +1,8 @@
 	#include "print.h"
 	#include "Systems.h"
 	#include "Components.h"
-
+	#include "ScriptingManager.h" 
+	
 	void RectRenderSystem::run(SDL_Renderer* renderer) {
 	    SDL_SetRenderDrawColor(renderer, 0, 2, 55, 25);
 	    const auto view = scene->r.view<TransformComponent, SizeComponent, NameComponent>();
@@ -64,6 +65,7 @@
 		t.position.y += speed.y * dT;
 	    }
 	}
+
 
 	// PlayerInputEventSystem
 	void PlayerInputEventSystem::run(SDL_Event event) {
