@@ -1,3 +1,0 @@
-/home/os/Desktop/Juegos/PONGFINAL/Pong/ESC/build/CMakeFiles/GAME.dir
-/home/os/Desktop/Juegos/PONGFINAL/Pong/ESC/build/CMakeFiles/edit_cache.dir
-/home/os/Desktop/Juegos/PONGFINAL/Pong/ESC/build/CMakeFiles/rebuild_cache.dir
