@@ -2,6 +2,7 @@
 #include "Pong.h"
 #include "Systems.h"
 #include "Components.h"
+#include "PaddleAIAgent.h" // Include the PaddleAIAgent header file
 
 Pong::Pong() : Game("Pong", SCREEN_WIDTH, SCREEN_HEIGHT) {
     std::unique_ptr<Scene> gameplayScene = createGameplayScene();
